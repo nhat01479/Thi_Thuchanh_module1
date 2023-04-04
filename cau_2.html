@@ -12,7 +12,7 @@
 	<script>
 		function findIndexOfValue(number, arr) {
             let count = 0;
-            let index;
+            let index; //Nếu index = [] thì mỗi lần lặp sẽ push i vào mảng index, sẽ tìm được các vị trí trong mảng gồm các phần tử trùng nhau
             for (let i=0; i<arr.length; i++){
                 if (number == arr[i]) {
                     count++;
